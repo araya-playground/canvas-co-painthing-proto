@@ -1,0 +1,19 @@
+{
+  "name": "canvas-co-painthing-proto",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/araya-playground/canvas-co-painthing-proto.git",
+  "author": "arayaryoma <r1o.ryoma.abe@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "watch": "webpack --mode development --watch --module-bind 'ts=ts-loader' --module-bind 'css=style-loader!css-loader' --resolve-extensions .ts,.css --output dist/main.js"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.2",
+    "style-loader": "^1.1.4",
+    "ts-loader": "^7.0.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
